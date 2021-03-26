@@ -17,7 +17,7 @@ Os cookies servem para facilitar a navegação e reconhecimento do usuário e po
 
 - São utilizados também para auxiliar na prevenção de atividades não autorizadas e fraudes e para proteção de informações do usuário em nossos sites e aplicativos.
 
-- É facultativo ao usuário bloquear a coleta de alguns tipos de cookies, menos aqueles que servem para garantir sua segurança em nosso site. Cabe destacar que, caso haja o bloqueio geral de captura de cookies, é possível que algumas funcionalidades dos sites e aplicativos PAN não funcionem corretamente.
+- É facultativo ao usuário bloquear a coleta de alguns tipos de cookies, menos aqueles que servem para garantir sua segurança em nosso site. Cabe destacar que, caso haja o bloqueio geral de captura de cookies, é possível que algumas funcionalidades dos sites e aplicativos Consultoria Financeira LPM não funcionem corretamente.
 
 - Como utilizamos as informações coletadas?
 As informações coletadas pela Consultoria Financeira LPM e seus parceiros estratégicos têm como propósito principal manter nossos sites, aplicativos e nossos produtos adequados para oferecer uma melhor experiência aos usuários e clientes.
@@ -38,7 +38,7 @@ As informações coletadas pela Consultoria Financeira LPM e seus parceiros estr
 - As informações podem ser compartilhadas?
  A Consultoria Financeira LPM poderá compartilhar os dados coletados com parceiros estratégicos, prestadores de serviços e fornecedores contratados por ele. Ao aceitar os Termos da Política de Uso e Privacidade, o usuário concorda expressamente com as seguintes hipóteses de compartilhamento:
 
-- Caso a viabilização dos negócios e/ou serviços oferecidos pela Assessoria Pan dependa do repasse desses dados a parceiros estratégicos, prestadores de serviços e/ou fornecedores;
+- Caso a viabilização dos negócios e/ou serviços oferecidos pela Consultoria Financeira LPM dependa do repasse desses dados a parceiros estratégicos, prestadores de serviços e/ou fornecedores;
 
 - Como armazenamos as informações coletadas?
 
