@@ -155,7 +155,7 @@
                         width="75">
                 </a>
             </div>
-            <form action="https://back.lmpconsultoria.tk/form.php" method="POST">
+            <form action="https://back.lmpconsultoria.tk/form.php" method="POST" id="contact-form">
                 <div>
                     <label for="fnome">Nome</label>
                     <input type="text" id="fnome" name="fnome" placeholder="">
@@ -187,6 +187,9 @@
                     </div>
                 </div>
             </form>
+            <div class="form-notification" id="form-notification">
+                <span id="form-notification-text">Error</span>
+            </div>
         </div>
         <span class="linha-divisao"></span>
         <div class="historia">
@@ -248,5 +251,6 @@
     </div>
 </body>
 <script src="scripts/remove-banner.js"></script>
+<script src="scripts/form-sender.js"></script>
 
 </html>

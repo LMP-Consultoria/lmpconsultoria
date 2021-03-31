@@ -166,6 +166,48 @@
     font-size: 12pt;
 }
 
+.form-terms span {
+    font-weight: normal;
+    font-size: 10pt;
+    color: #666;
+}
+
+.form-notification {
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    transition: all 1s;
+    transform: translate(0px, -30px);
+
+    background: #bbbbbb;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.form-notification-show {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+
+.form-notification-sending {
+    background: #679dff;
+    color: white;
+}
+
+.form-notification-error {
+    background: #ff6767;
+    color: white;
+}
+
+.form-notification-success {
+    background: #67ff88;
+    color: white;
+}
+
 /* CAIXAS */
 
 .infos {

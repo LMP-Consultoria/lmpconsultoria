@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.footer p,span {
+.footer p, .footer span {
     font-weight: normal;
     font-size: 10pt;
     color: #666;
