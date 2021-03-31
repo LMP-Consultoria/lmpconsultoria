@@ -41,10 +41,13 @@
     align-items: center;
 }
 
-.form-title a {
+.wpp-button {
     transition: 0.5s;
     margin-left: 22px;
     animation: pulse 2s infinite;
+
+    text-decoration: none;
+    color: #378c48;
 }
 
 @keyframes pulse {
@@ -59,10 +62,24 @@
     }
 }
 
-.form-title a:hover{
+.wpp-button:hover{
     animation-play-state: paused;
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.wpp-button div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wpp-button > div span {
+    width: 78px;
+    font-size: 9pt;
+    text-align: center;
+    line-height: 11px;
+    margin-top: 4px;
 }
 
 .contact-form h2 {
