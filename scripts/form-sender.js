@@ -38,7 +38,8 @@ contactForm.onsubmit = (ev) => {
             let fmensagem = document.getElementById("fmensagem").value;
         
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://back.lmpconsultoria.tk/internalform.php', true);
+            //https://back.lmpconsultoria.tk/internalform.php
+            xhr.open('POST', 'https://lmp-consultoria.000webhostapp.com/internalform.php', true);
             xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
             xhr.onload = function () {
                 // do something to response
