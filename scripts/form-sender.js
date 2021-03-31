@@ -24,6 +24,11 @@ function changeNotification(type){
 let contactForm = document.getElementById("contact-form");
 console.log(contactForm);
 
+function format(text){
+    text = encodeURIComponent(text);
+    return text;
+}
+
 let submiting = false;
 contactForm.onsubmit = (ev) => {
     if(submiting == false){
@@ -31,11 +36,11 @@ contactForm.onsubmit = (ev) => {
         try{
             changeNotification(1);
             submiting = true;
-            let fnome = document.getElementById("fnome").value;
-            let fcpf = document.getElementById("fcpf").value;
-            let ftelefone = document.getElementById("ftelefone").value;
-            let femail = document.getElementById("femail").value;
-            let fmensagem = document.getElementById("fmensagem").value;
+            let fnome = format(document.getElementById("fnome").value);
+            let fcpf = format(document.getElementById("fcpf").value);
+            let ftelefone = format(document.getElementById("ftelefone").value);
+            let femail = format(document.getElementById("femail").value);
+            let fmensagem = format(document.getElementById("fmensagem").value);
         
             var xhr = new XMLHttpRequest();
             //https://back.lmpconsultoria.tk/internalform.php
