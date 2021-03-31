@@ -26,6 +26,7 @@ console.log(contactForm);
 
 function format(text){
     text = encodeURIComponent(text);
+    text.split('\n').join('<br/>');
     return text;
 }
 
