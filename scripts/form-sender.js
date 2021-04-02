@@ -45,7 +45,7 @@ contactForm.onsubmit = (ev) => {
         
             var xhr = new XMLHttpRequest();
             //https://back.lmpconsultoria.tk/internalform.php
-            xhr.open('POST', 'https://lmp-consultoria.000webhostapp.com/internalform.php', true);
+            xhr.open('POST', 'https://back7.lmpconsultoria.tk/internalform.php', true);
             xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
             xhr.onload = function () {
                 // do something to response
